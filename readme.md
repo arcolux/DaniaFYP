@@ -55,6 +55,12 @@
 5. Click on the "Reset Token" button.
 6. Copy the token and save it for later.
 
+## Adding Discord Bot to Server
+
+1. Go to the "OAuth2" tab on the left side of the page.
+2. Under the "OAuth2 URL Generator" section, select the "bot" checkbox.
+3. Copy the URL and paste it into your browser.
+
 ## Preparing for System Source Code
 
 ### Step 1: Download the Files
