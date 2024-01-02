@@ -2,5 +2,4 @@
 node_modules
 
 # Secret File
-.env
 package-lock.json

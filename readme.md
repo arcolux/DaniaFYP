@@ -10,7 +10,8 @@
 ### Step 2: Run the Installer
 
 1. Once the download is complete, run the installer executable.
-2. Follow the installation wizard, accepting the default settings unless you have specific preferences.
+2. Follow the installation wizard, ensure that you tick the checkbox to install the necessary tools for Node.js.
+3. This installation will take a few minutes to complete.
 
 ### Step 3: Verify Installation
 
@@ -45,22 +46,35 @@
 
 ## Setting Up Discord Bot and ESP32
 
-## Preparing Discord Bot
+## Create Discord Bot
 
-### Step 1: Extract the Files
+1. Visit the Discord Developer Portal at [discord.com/developers](https://discord.com/developers).
+2. Click on the "New Application" button.
+3. Enter the name of your bot and click on the "Create" button.
+4. Go to the "Bot" tab on the left side of the page.
+5. Click on the "Reset Token" button.
+6. Copy the token and save it for later.
 
-1. Download the zip file and extract it to a location of your choice.
+## Preparing for System Source Code
 
-### Step 2: Open in Visual Studio Code
+### Step 1: Download the Files
+
+1. Download the zip file by clicking the "Code" button and selecting "Download ZIP."
+
+### Step 2: Extract the Files
+
+1. Extract the zip file to a folder of your choice.
+
+### Step 3: Open in Visual Studio Code
 
 1. Open Visual Studio Code.
 2. Navigate to "File" > "Open Folder" and select the folder you extracted.
 
-### Step 3: Open Terminal
+### Step 4: Open Terminal
 
 1. Open the terminal in Visual Studio Code using the shortcut or by navigating to "View" > "Terminal."
 
-### Step 4: Change Directory
+### Step 5: Change Directory
 
 1. In the terminal, type the following command and press Enter:
 
@@ -68,7 +82,7 @@
    cd discord
    ```
 
-### Step 5: Install Dependencies
+### Step 6: Install Dependencies
 
 1. Install Dependendecies by typing the following command and press Enter:
 
@@ -76,7 +90,13 @@
    npm install
    ```
 
-### Step 6: Run the Bot
+### Step 7: Configure the Discord Bot
+
+1. Open the file named `.env` in the `discord` folder.
+2. Configure the following settings:
+   - `TOKEN`: The token of your Discord bot.
+
+### Step 8: Run the Bot
 
 1. Run the bot by typing the following command and press Enter:
 
@@ -84,10 +104,22 @@
    node index.js
    ```
 
-## Preparing ESP32
+### Step 9: Verify the Discord Bot
 
-1. Open the file named `main.cpp` in the `src` folder.
-2. Configure the following settings:
+1. Open Discord.
+2. Go to the server you added the bot to.
+3. See if the bot is online.
+4. Type the command `mi!send` to see if the bot responds.
+5. If the bot response with embed message and buttons, you have successfully set up the Discord bot.
+
+## Preparing ESP32 Source Code
+
+### Step 1: Open the Project
+
+1. Open the folder named `src` in the folder you extracted.
+2. Open the file named `main.cpp` in the `src` folder.
+3. Open the file named `main.cpp` in the `src` folder.
+4. Configure the following settings:
    - `ssid`: The name of your WiFi network.
    - `password`: The password of your WiFi network.
-3. Upload the code to your ESP32.
+5. By using the shortcut `Ctrl+Shift+P`, type "PlatformIO: Upload" and press Enter.
