@@ -106,7 +106,7 @@
 1. Open the file named `.env` in the `discord` folder.
 2. Configure the following settings:
    - `TOKEN`: The token of your Discord bot.
-3. To enable Developer Mode in Discord, go to "User Settings" > "Appearance" and enable the "Developer Mode" checkbox.
+3. To enable Developer Mode in Discord, go to "App Settings" > "Advance" and enable the "Developer Mode" checkbox.
 4. Copy the ID of the server you added the bot to by right-clicking on the server icon and selecting "Copy ID."
 5. Navigate to `discord/lib/validation/constant.js` and change the following settings:
    - `guildId`: The ID of the server you added the bot to.
