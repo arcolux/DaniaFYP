@@ -1,0 +1,24 @@
+{
+    "data": {
+        "verification": {
+            "captcha": {
+                "content": null,
+                "embeds": [
+                  {
+                    "description": "<:spina:1040099705528533062> • **Six** Character in length\n\n<:spina:1040099705528533062> • Character is **case sensitive**\n\n<:spina:1040099705528533062> • Click the picture if you onlyㅤㅤㅤ see **4** or **5** characters",
+                    "color": 4067027,
+                    "author": {
+                      "name": "Captcha Verification"
+                    },
+                    "image": {
+                      "url": "https://cdn.discordapp.com/attachments/916902780701118504/958257297107353640/captcha.png"
+                    },
+                    "thumbnail": {
+                      "url": "https://cdn.discordapp.com/icons/800974676187807764/6b79a30e014e969b4e385f93f00ccab8.webp"
+                    }
+                  }
+                ]
+            }
+        }
+    }
+}
