@@ -55,6 +55,11 @@
 5. Click on the "Reset Token" button.
 6. Copy the token and save it for later.
 
+## Enable Discord Bot Privileged Gateway Intents
+
+1. Go to the "Bot" tab on the left side of the page.
+2. Under the "Privileged Gateway Intents" section, enable the "Presence Intent", "Server Members Intent" and "Message Content Intent" checkboxes.
+
 ## Adding Discord Bot to Server
 
 1. Go to the "OAuth2" tab on the left side of the page.
@@ -101,6 +106,10 @@
 1. Open the file named `.env` in the `discord` folder.
 2. Configure the following settings:
    - `TOKEN`: The token of your Discord bot.
+3. To enable Developer Mode in Discord, go to "User Settings" > "Appearance" and enable the "Developer Mode" checkbox.
+4. Copy the ID of the server you added the bot to by right-clicking on the server icon and selecting "Copy ID."
+5. Navigate to `discord/lib/validation/constant.js` and change the following settings:
+   - `guildId`: The ID of the server you added the bot to.
 
 ### Step 8: Run the Bot
 
