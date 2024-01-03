@@ -1,11 +1,9 @@
 require("colors");
-const util = require("util");
 const Discord = require('discord.js');
 const Duration = require('humanize-duration');
 const abbreviate = require('js-abbreviation-number');
 const ordinal = require('ordinal');
 const { MessageFlags } = require("discord-api-types/v10");
-const DiscordType = require('discord-api-types/v10');
 
 
 class Util {

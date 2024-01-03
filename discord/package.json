@@ -1,42 +1,20 @@
 {
-  "name": "twilightcream",
+  "name": "discordv2",
   "version": "1.0.0",
-  "description": "Custom bot for Twilight Cream Discord server",
+  "description": "",
   "main": "index.js",
-  "engines": {
-    "node": "^20.0.0"
-  },
-  "directories": {
-    "lib": "lib"
-  },
   "scripts": {
-    "start": "node index.js",
-    "debug": "ndoemon index.js"
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "Arcolux#1123",
+  "keywords": [],
+  "author": "",
   "license": "ISC",
   "dependencies": {
-    "ascii-table": "^0.0.9",
-    "axios": "^0.27.2",
     "colors": "^1.4.0",
-    "did-you-mean": "^0.0.1",
-    "discord.js": "^14.11.0",
-    "dotenv": "^16.0.2",
-    "glob": "^8.0.3",
-    "humanize-duration": "^3.27.3",
+    "discord.js": "^14.14.1",
+    "humanize-duration": "^3.31.0",
     "js-abbreviation-number": "^1.4.0",
-    "lodash": "^4.17.21",
-    "mathjs": "^11.2.1",
-    "moment": "^2.29.4",
-    "moment-timezone": "^0.5.38",
-    "mongoose": "^6.6.1",
-    "mongoose-long": "^0.6.0",
-    "mqtt": "^5.1.2",
-    "ordinal": "^1.0.3",
-    "uuid": "^9.0.0"
-  },
-  "devDependencies": {
-    "chai": "^4.3.6",
-    "mocha": "^10.0.0"
+    "mqtt": "^5.3.4",
+    "ordinal": "^1.0.3"
   }
 }
